@@ -103,4 +103,4 @@ For more detailed analysis: https://dev.classmethod.jp/articles/xcode26-uisegmen
 ## Related Links
 
 - Apple Developer Forums: (To be added)
-- Feedback Assistant: (To be added)
+- Feedback Assistant: FB21712773

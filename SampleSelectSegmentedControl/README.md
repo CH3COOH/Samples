@@ -6,10 +6,12 @@ A minimal project to reproduce a UISegmentedControl tap position bug in Xcode 26
 
 When tapping an unselected `UISegmentedControl` that has dynamically set segments, the tap position is incorrectly calculated. For example, tapping the rightmost segment (index 3) results in the leftmost segment (index 0) being selected instead.
 
+https://github.com/user-attachments/assets/11cd5502-5936-4da0-a788-b77e3049abc5
+
 ## Environment
 
 - **Xcode**: 26.1.1, 26.2 (confirmed)
-- **iOS**: 26.x
+- **iOS**: 18.5, 26.2
 - **Device**: Simulator and physical devices
 
 ## Conditions to Reproduce
@@ -100,9 +102,5 @@ For more detailed analysis: https://dev.classmethod.jp/articles/xcode26-uisegmen
 
 ## Related Links
 
-- Apple Developer Forums: [YOUR_FORUM_POST_URL]
-- Feedback Assistant: [YOUR_FEEDBACK_ID]
-
-## License
-
-This project is provided for bug reproduction purposes.
+- Apple Developer Forums: (To be added)
+- Feedback Assistant: (To be added)
